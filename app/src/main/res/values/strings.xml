@@ -1,0 +1,63 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Martinelli Barber Shop</string>
+    <string name="admin_email">aenamartinelli@gmail.com</string>
+    <string name="TextToChange">Barber!</string>
+    <string name="textButton">Send</string>
+    <string name="barberImageDescription">barber image</string>
+    <string name="insertName">Insert your name</string>
+    <string name="login">Login</string>
+    <string name="dropdown">dropdown button</string>
+    <string name="testButton">Test</string>
+    <string name="returnLogin">Return to login</string>
+    <string name="insert_password">Insert your password</string>
+    <string name="insert_email">Insert your email</string>
+    <string name="show_password">Password visible</string>
+    <string name="register">Register</string>
+    <string name="insert_repeat_password">Repeat password</string>
+    <string name="logout">Logout</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="clients_today">Clients today:</string>
+    <string name="clients">My clients</string>
+    <string name="view_clients">View clients</string>
+    <string name="add_clients">Add clients</string>
+    <string name="remove_client">Remove client</string>
+    <string name="my_clients">My clients</string>
+    <string name="insert_username">Insert username</string>
+    <string name="add_client">Add client</string>
+    <string name="mustache_desc">Mustache png</string>
+    <string name="services">Services</string>
+    <string name="remove_services">Remove service</string>
+    <string name="add_service">Add service</string>
+    <string name="insert_service_name">Insert service name</string>
+    <string name="insert_service_price">Insert service price</string>
+    <string name="insert_age">Age</string>
+    <string name="add_schedule">add schedule</string>
+    <string name="insert_time">Enter a time</string>
+    <string name="my_schedule">My schedules</string>
+    <string name="add_time">Add time</string>
+    <string name="remove_time">Remove time</string>
+    <string name="choose_time">Choose a time</string>
+    <string name="spinner">spinner</string>
+    <string name="make_apptm">Make an appointment</string>
+    <string name="insert_phone">Phone number</string>
+    <string name="create_account">Don\'t have an account? Click <u><font color="#5555DD">here</font></u> to create one</string>
+    <string name="choose_date">Choose a date to book an appointment</string>
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="my_appointments">My appointments</string>
+    <string name="my_account">My account</string>
+    <string name="Main">Main menu</string>
+    <string name="remove_schedule">Remove schedule</string>
+    <string name="insert_schedule">Insert schedule</string>
+    <string name="save_changes">Save changes</string>
+    <string name="remove_appointment">Remove appointment</string>
+
+    <string-array name="options">
+        <item>Clients</item>
+        <item>Services</item>
+        <item>Employees</item>
+        <item>Schedules</item>
+        <item>Settings</item>
+        <item></item>
+    </string-array>
+</resources>

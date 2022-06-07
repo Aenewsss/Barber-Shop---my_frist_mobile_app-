@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1046358798480",
+    "firebase_url": "https://barbershop-2bf9b-default-rtdb.firebaseio.com",
+    "project_id": "barbershop-2bf9b",
+    "storage_bucket": "barbershop-2bf9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046358798480:android:373435d0bf8a7a245e6815",
+        "android_client_info": {
+          "package_name": "com.example.fristmobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1046358798480-gqalb1umakqa4prjqognm44d5p71krn7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fristmobileapp",
+            "certificate_hash": "97b99588ded2639d93722871d960ffa25fbec173"
+          }
+        },
+        {
+          "client_id": "1046358798480-m6d4k6i8kr2te8hncv34ruda08u7mu83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi5cQh58IfMQVzXL-ezwAx8-tXVHo1T-k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1046358798480-m6d4k6i8kr2te8hncv34ruda08u7mu83.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.example.firstmobileapp.views.admin.Main">
+
+    <TextView
+        android:id="@+id/listText"
+        android:layout_width="391dp"
+        android:layout_height="64dp"
+        android:background="@color/white"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/clients_today"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/listUsers"
+        android:layout_width="391dp"
+        android:layout_height="400dp"
+        android:background="@color/white"
+        android:cacheColorHint="@color/white"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical"
+        android:smoothScrollbar="false"
+        android:verticalScrollbarPosition="right"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listText"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/returnLogin"
+        android:backgroundTint="@color/purple_99"
+        android:layout_width="133dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/returnLogin"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        app:cornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.98" />
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="331dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/listUsers"
+        app:layout_constraintVertical_bias="0.651" />
+
+    <Spinner
+        android:id="@+id/spinnerMain"
+        android:layout_width="71dp"
+        android:layout_height="71dp"
+        android:contentDescription="@string/dropdown"
+        android:dropDownSelector="@color/transparent"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:foreground="@drawable/plus_button_purple"
+        android:popupBackground="@color/purple_99"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.979" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

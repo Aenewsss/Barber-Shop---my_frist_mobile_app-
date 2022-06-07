@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firstmobileapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FirstMobileApp">
+        <activity
+            android:name=".views.client.Appointments"
+            android:exported="false" />
+        <activity
+            android:name=".views.client.Account"
+            android:exported="false" />
+        <activity
+            android:name=".views.client.Mark"
+            android:exported="false" />
+        <activity
+            android:name=".views.admin.schedule.ScheduleRemove"
+            android:exported="false" />
+        <activity
+            android:name=".views.admin.schedule.ScheduleAdd"
+            android:exported="false" />
+        <activity
+            android:name=".views.client.Main"
+            android:exported="false" />
+        <activity
+            android:name=".views.admin.schedule.Schedule"
+            android:exported="false" />
+        <activity
+            android:name=".views.admin.services.ServiceRemove"
+            android:exported="false" />
+        <activity
+            android:name=".views.admin.services.ServiceAdd"
+            android:exported="false" />
+        <activity
+            android:name=".views.admin.settings.Settings"
+            android:exported="false" />
+        <activity
+            android:name=".views.admin.employees.Employees"
+            android:exported="false" />
+        <activity
+            android:name=".views.admin.services.Services"
+            android:exported="false" />
+        <activity
+            android:name=".views.admin.clients.ClientRemove"
+            android:exported="false" />
+        <activity
+            android:name=".views.admin.clients.ClientAdd"
+            android:exported="false" />
+        <activity
+            android:name=".views.admin.clients.Clients"
+            android:exported="false" />
+        <activity
+            android:name=".views.Register"
+            android:exported="false" />
+        <activity
+            android:name=".views.Login"
+            android:exported="false" />
+        <activity
+            android:name=".views.admin.Main"
+            android:exported="false" />
+        <activity
+            android:name=".views.Startup"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
